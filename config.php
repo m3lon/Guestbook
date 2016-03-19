@@ -1,6 +1,6 @@
 <?php
 
-$pageSize = 2; //控制每页显示的留言条数
+$pageSize = 3; //控制每页显示的留言条数
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', 'password');
