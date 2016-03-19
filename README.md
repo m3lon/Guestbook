@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 PHP 留言板功能需求分析
 
 功能需求：用户利用留言板可以发表自己的留言，管理员可以在后台对留言进行回复或删除管理。
@@ -34,3 +35,7 @@ guestbook.sql:数据库文件
 1,导入guestbook.sql数据库即可
 2,修改config.php文件中对应的数据库信息
 
+=======
+# Guestbook
+php+mysql实现的Guestbook
+>>>>>>> 9d2dd96e431f4b454b5913ea8e5808255a2b1410
