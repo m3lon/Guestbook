@@ -15,7 +15,7 @@ if ($_POST) {
 		$_SESSION['password'] = $query_array['password'];
 		$_SESSION['id'] = $query_array['id'];
 		
-		header("Location:admin.php");
+		header("Location:http://localhost/project/myguestbook/admin/admin.php");
 	}else{
 		echo "密码错误".mysql_error();
 	}

@@ -57,7 +57,7 @@ if (!isset($_SESSION['id'])) {
 						<div class="ButtonDiv">
 						<input type="hidden" name="id" value="<?=$gb_array['id'];?>">
 						<input type="submit" name="submit" value="回复留言" class="button" />
-						<span  class="button"><a href="reply.php?action=delete&id=<?=$gb_array['id'];?>">删除留言</a></span>
+						<span  class="button"><a href="reply.php?action=delete&id=<?php echo$gb_array['id'];?>">删除留言</a></span>
 						</div>
 				</form>
 			</div>

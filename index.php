@@ -38,7 +38,7 @@
 				?>
 
 				<div class="replyDiv">
-					管理员回复时间：<?=date("Y-h-d H:i",$gb_array['replytime']);?><br/>
+					管理员回复时间：<?php echo date("Y-h-d H:i",$gb_array['replytime']);?><br/>
 					回复内容为：<?=nl2br($gb_array['reply']);?><br/><br/>
 				</div>
 
